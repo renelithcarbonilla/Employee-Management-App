@@ -11,6 +11,7 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class PayslipActivity extends AppCompatActivity {
+    //Payslip Activity: Implementation for Payslip
     TextView tvName, tvNetPay, tvOvertime, tvBonus, tvDeduction;
     Button btnBack;
     @Override
