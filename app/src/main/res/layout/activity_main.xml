@@ -8,7 +8,7 @@
     android:background="#F5F7FA"
     tools:context=".MainActivity">
 
-    <!-- Header Section: Deep Blue Background -->
+    <!-- UI: CardView navigation for Employee Portal -->
     <View
         android:id="@+id/headerBackground"
         android:layout_width="match_parent"
