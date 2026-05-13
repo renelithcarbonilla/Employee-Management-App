@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#F5F7FA">
 
-    <!-- Blue Header Section -->
+    <!-- UI: ID Card style for Employee Profile -->
     <View
         android:id="@+id/profileHeader"
         android:layout_width="match_parent"
