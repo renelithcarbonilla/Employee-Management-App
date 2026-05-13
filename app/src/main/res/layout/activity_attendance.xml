@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#F5F7FA">
 
-    <!-- Header Blue Bar -->
+    <!-- Feature: Real-time TextClock for attendance -->
     <View
         android:id="@+id/viewHeader"
         android:layout_width="match_parent"
