@@ -33,7 +33,7 @@ app.post("/login", (req, res) => {
         }
     });
 });
-//
+
 app.get("/get_profile.php", (req, res) => {
   const userId = req.query.user_id;
 
