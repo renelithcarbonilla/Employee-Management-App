@@ -8,7 +8,7 @@
     android:background="#F5F7FA"
     tools:context=".PayslipActivity">
 
-    <!-- Blue Header Section -->
+    <!-- UI: Detailed breakdown for Monthly Payslip -->
     <View
         android:id="@+id/payslipHeader"
         android:layout_width="match_parent"
