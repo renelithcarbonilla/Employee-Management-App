@@ -20,6 +20,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHolder> {
+    //Custome Adapter: Implementation for RecyclerView
     ArrayList<Staff> staffArrayList;
     Context context;
 
