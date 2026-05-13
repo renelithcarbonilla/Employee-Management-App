@@ -5,6 +5,7 @@ import com.google.gson.annotations.SerializedName;
 public class LoginResponse {
     private String status;
     private String message;
+    //LoginResponse: Implementation for Login
 
     // Kinahanglan motugma kini sa JSON keys gikan sa imong PHP
     @SerializedName("user_id")
