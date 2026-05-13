@@ -14,7 +14,7 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class LoginActivity extends AppCompatActivity {
-
+//Login Activity: Implementation for Login
     private EditText etUsername, etPassword;
     private Button btnLogin;
 
