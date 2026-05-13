@@ -97,7 +97,7 @@ app.get("/get_payslip.php", (req, res) => {
     });
   });
 });
-
+//
 app.post("/api_attendance.php", (req, res) => {
     const userId = req.body.user_id;
     const action = req.body.action; 
