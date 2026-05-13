@@ -19,7 +19,7 @@ db.connect(err => {
   else console.log("✅ Node.js Server is Connected!");
 });
 
-// --- LOGIN, PROFILE, & PAYSLIP ROUTES (Pabilin gihapon ni sila) ---
+// --- LOGIN, PROFILE, & PAYSLIP ROUTES  ---
 
 app.post("/login", (req, res) => {
     const { username, password } = req.body;
