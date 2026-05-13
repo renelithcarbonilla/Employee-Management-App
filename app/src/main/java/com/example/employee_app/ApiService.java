@@ -8,7 +8,7 @@ import retrofit2.http.POST;
 import retrofit2.http.Query;
 
 public interface ApiService {
-
+    // Network: Configuration for Node.js backend
     // KINI PARA SA LOGIN (Step 1)
     @FormUrlEncoded
     @POST("login")
