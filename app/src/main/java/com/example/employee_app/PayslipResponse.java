@@ -3,6 +3,7 @@ package com.example.employee_app;
 import com.google.gson.annotations.SerializedName;
 
 public class PayslipResponse {
+    //Payslip Response: Implementation for Payslip
     private String status;
     private String fullname;
 
