@@ -6,6 +6,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitClient {
+    //Retrofit Client: Implementation for Retrofit
     // Siguroha nga husto ang IP ug naay /api/ sa tumoy
     // Kinahanglan ingon ani gyud ang format:
     private static final String BASE_URL = "http://192.168.100.9:3000/";
