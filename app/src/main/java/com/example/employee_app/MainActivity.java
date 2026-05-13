@@ -9,7 +9,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-
+    // Integration: Retrofit setup for API calls
     private TextView tvWelcome;
     private Button btnAttendance, btnViewProfile, btnViewPayslip; // I-declare tanan buttons
 
