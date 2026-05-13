@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:text="Please sign in to continue"
             android:textSize="14sp"
-            android:textColor="#75575"
+            android:textColor="#57575"
             android:layout_marginBottom="40dp"/>
 
         <!-- USERNAME FIELD -->
