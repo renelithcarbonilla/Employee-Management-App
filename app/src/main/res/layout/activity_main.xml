@@ -8,7 +8,7 @@
     android:background="#F5F7FA"
     tools:context=".MainActivity">
 
-    <!-- UI: CardView navigation for Employee Portal -->
+    <!-- UI: CardView navigation for Employee Portall -->
     <View
         android:id="@+id/headerBackground"
         android:layout_width="match_parent"
