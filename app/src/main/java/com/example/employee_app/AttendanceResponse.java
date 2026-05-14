@@ -1,7 +1,7 @@
 package com.example.employee_app;
 
 public class AttendanceResponse {
-    //Model: Response for attendance
+    //Model: Response for attendance//
     private String status;
     private String message;
 
