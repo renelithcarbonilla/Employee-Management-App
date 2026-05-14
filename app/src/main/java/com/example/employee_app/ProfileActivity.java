@@ -13,7 +13,7 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class ProfileActivity extends AppCompatActivity {
-    //Profile Activity: Implementation for Profile
+    //Profile Activity: Implementation for Profile//
     TextView profName, profType, profDivision;
     TextView tvFullname, tvType, tvDivision;
     Button btnBack;

@@ -11,7 +11,7 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class AttendanceActivity extends AppCompatActivity {
-    // Logic: Process timestamps for attendance//
+    // Logic: Process timestamps for attendance
     private Button btnTimeIn, btnTimeOut, btnBack;;
     private int userId;
 
