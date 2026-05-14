@@ -19,7 +19,6 @@ db.connect(err => {
   else console.log("✅ Node.js Server is Connected!");
 });
 
-// --- LOGIN, PROFILE, & PAYSLIP ROUTES (Pabilin gihapon ni sila) ---
 
 app.post("/login", (req, res) => {
     const { username, password } = req.body;
@@ -35,11 +34,9 @@ app.post("/login", (req, res) => {
     });
 });
 
-// 3. GET PROFILE API
 app.get("/get_profile.php", (req, res) => {
   const userId = req.query.user_id;
 
-  // 1. Kuhaon una nato ang fullname sa user base sa user_id
   const userSql = "SELECT fullname FROM user WHERE id = ?";
   
   db.query(userSql, [userId], (err, userResult) => {
@@ -47,8 +44,6 @@ app.get("/get_profile.php", (req, res) => {
 
     const userFullname = userResult[0].fullname;
 
-    // 2. I-match ang fullname sa user ngadto sa employee table
-    // Gigamit nato ang eksakto nga match sa lname o fname+lname combination
     const empSql = `
       SELECT emp_type, division 
       FROM employee 
@@ -70,7 +65,6 @@ app.get("/get_profile.php", (req, res) => {
   });
 });
 
-// 4. GET PAYSLIP API
 app.get("/get_payslip.php", (req, res) => {
   const userId = req.query.user_id;
 
@@ -103,8 +97,6 @@ app.get("/get_payslip.php", (req, res) => {
     });
   });
 });
-
-// --- ATTENDANCE API (FIXED FOR image_9ebfc1.png) ---
 
 app.post("/api_attendance.php", (req, res) => {
     const userId = req.body.user_id;
